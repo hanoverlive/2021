@@ -1,0 +1,12 @@
+<script>
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const product = urlParams.get('user_email');
+  const kings = "kingshigh"
+  if  (product.includes(kings)) {
+    console.log("Yee");
+    }
+  else{
+    console.log('nah');
+  }
+</script>
