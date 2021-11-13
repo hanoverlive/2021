@@ -4,9 +4,11 @@
   const product = urlParams.get('user_email');
   const kings = "kingshigh"
   if  (product.includes(kings)) {
-    console.log("Yee");
+    console.log("Yes");
+    window.location.replace("https://hanoverlive.netlify.app/viewlive.html?auth='202'");
     }
   else{
-    console.log('nah');
+    console.log('No');
+    window.location.replace("https://hanoverlive.netlify.app/noauth.html");
   }
 </script>
